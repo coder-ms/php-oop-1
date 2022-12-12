@@ -44,9 +44,6 @@ class Movie{
 
     }
   }
- 
-
-
 }
 
 $pinocchioActors = ['Marlon Brando', 'Marylin Monroe'];
@@ -62,13 +59,5 @@ var_dump($dumbo);
 var_dump($dumboActors);
 
 //echo '($name, $year, $runningTime)';
-
-
-/*
-salve, ho 3 domande riguardo all'esercizio di oggi:
-1. come metodo indicate anche una public function ?
-2. per la seconda parte dell'esercizio base da fare come negli esempi di oggi?
-3. Non capisco come mai utilizzando il var dump come è stato fatto oggi a lezione, non mi esce strutturato, ma lineare
-*/
 
 ?>
