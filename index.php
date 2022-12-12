@@ -26,8 +26,6 @@ class Movie{
         $this->setDiscount();
   }
 
-
-
   // in base all'età, si generi uno sconto
   // se età > 65, lo sconto è del 40%
   // se età < 18, lo sconto è del 20%
@@ -46,11 +44,31 @@ class Movie{
 
     }
   }
+ 
+
 
 }
 
-echo '($name, $year, $runningTime)';
+$pinocchioActors = ['Marlon Brando', 'Marylin Monroe'];
+$pinocchio = new Movie('Pinocchio', '1940', 'Animazione, Avventura', $pinocchioActors);
+
+var_dump($pinocchio);
+var_dump($pinocchioActors);
+
+$dumboActors = ['Steven Seagall', 'Brandon lee'];
+$dumbo = new Movie('Pinocchio', '1942', 'Animazione, Avventura', $dumboActors);
+
+var_dump($dumbo);
+var_dump($dumboActors);
+
+//echo '($name, $year, $runningTime)';
 
 
+/*
+salve, ho 3 domande riguardo all'esercizio di oggi:
+1. come metodo indicate anche una public function ?
+2. per la seconda parte dell'esercizio base da fare come negli esempi di oggi?
+3. Non capisco come mai utilizzando il var dump come è stato fatto oggi a lezione, non mi esce strutturato, ma lineare
+*/
 
 ?>
