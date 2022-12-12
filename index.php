@@ -11,10 +11,14 @@ class Movie{
     public static $startingPrice;
 
 
-
+    function __construct($_name, $_year, $_actors = []){
+        
+    }
 
 }
 
 echo '($name, $year, $runningTime)';
+
+
 
 ?>
